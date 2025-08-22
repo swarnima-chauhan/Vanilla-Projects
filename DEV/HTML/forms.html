@@ -6,22 +6,36 @@
     <title>Forms</title>
 </head>
 <body>
-    <form action="">
+    <form action="/action">
         <div>
             <label for="username">Enter your name :</label>
-            <input type="text" id="username" placeholder="username">
+            <input type="text" id="username" placeholder="username"
+            name="user">
         </div>
         
         <div>
             <label for="password">Password :</label>
-            <input type="password" id="password">
+            <input type="password" id="password"
+            name="password">
         </div>
 
-        <div>
-            <label for="age">Enter Age :</label>
-            <input type="number" id="age">
-        </div>
+        <input type="submit">
         
     </form>
+
+    <hr>
+    <form action="https://www.google.com/search">
+    <input type="text" name="q"  placeholder="Search in google">
+    <button type="submit">Search</button>
+    </form>
+
+
+    <form action="hi">
+        <input type="checkbox" name="age" id="age" />
+        <label for="age">I'm 18+</label>
+        <button>Submit</button>
+    </form>
+    
+
 </body>
 </html>
