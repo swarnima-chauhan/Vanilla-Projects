@@ -29,18 +29,78 @@
     <button type="submit">Search</button>
     </form>
 
+    <hr>
 
     <form action="hi">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"/>
         <input type="checkbox" name="age" id="age" />
+        <br>
         <label for="age">I'm 18+</label>
+        <br>
+        <input type="radio" name="fruit" id="apple " value="apple"/>
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango"/>
+        <label for="mango">Mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana"/>
+        <label for="banana">Banana</label>
+        <br>
         <button>Submit</button>
     </form>
+
+    <hr>
     
     <form action="">
         <label for="name">Name</label>
         <input type="text" name="name" id="age"/>
+
+        <div>
+        Choose your profession
+        <select name="profession" id="profession">
+            <option value="">Select your option</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="volume">
+                Select you volume level
+            </label>
+            <input type="range" min="0" max="100" name="volume" step="10" value="70">
+        </div>
+
+        <div>
+            <label for="feedback">Please give your feedback</label>
+            <textarea name="feedback" id="feedback" placeholder="Write your feedback"></textarea>
+        </div>
+
         <button>Submit</button>
     </form>
+
+    <hr>
+    <hr>
+
+    <!--Practice-->
+    <h2>Registration Form</h2>
+    <form action="/action">
+        <input type="text" placeholder="First name" name="fname">
+        <input type="text" placeholder="Last name" name="lname">
+        <br>
+        <label for="gender">Please select your gender</label>
+        <select name="gender" id="gender" >
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Others</option>
+        </select>
+        <br>
+        Do you agree to all terms of service
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree" >Yes, I agree</label>
+        <br>
+        <button>Register</button>
+    </form>
+
 
 </body>
 </html>
