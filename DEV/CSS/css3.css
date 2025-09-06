@@ -2,3 +2,29 @@ div{
     height: 200px;
     width: 400px;
 }
+
+.outerD{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.innerD1, .innerD2, .innerD3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.innerD1{
+    background-color: red;
+}
+
+.innerD2{
+    background-color: yellow;
+}
+
+.innerD3{
+    background-color: green;
+}
