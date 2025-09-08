@@ -21,3 +21,23 @@
     font-size: 50px;
     text-align: center;
 }
+
+.lay{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    align-content: center;
+    justify-self: flex-start;
+}
+
+.con{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+   line-height: 50px;
+}
