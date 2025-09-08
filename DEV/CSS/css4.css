@@ -30,6 +30,10 @@
     left:250px;
 } */
 
+*{
+    margin: 10px;
+}
+
 #box1{
     width: 100px;
     height: 100px;
@@ -45,21 +49,29 @@
     width: 100px;
     height: 100px;
     background: red;
+    transform: rotate(90deg) translate(200px, -200px);
+
 }
 
 #box3{
     width:100px;
     height:100px;
     background:lightblue;
+    transform: skewX(20deg);
 }
+
 #box4{
     width:100px;
     height:100px;
     background:lightgreen;
+    box-shadow: 2px 2px 10px green;
 }
     
 #myPic{
     width:200px;
     height:200px;
     background:pink;
+    background-image: url("girl.jpeg");
+    background-size: cover;
+    opacity: 50%;
 }
