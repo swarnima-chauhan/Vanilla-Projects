@@ -7,13 +7,20 @@
     grid-template-columns: auto auto; */
 
     grid-template-rows: repeat(6,1fr);
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     row-gap: 10px;
     column-gap: 100px;
+   
 }
 
 .item{
     background-color: greenyellow;
     border: 2px solid black;
     text-align: center;
+}
+
+#one{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/span 2;
 }
